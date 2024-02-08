@@ -87,7 +87,8 @@ p1 {
 
 }
 
-.lower-container-index {
+.lower-container-right-index,
+.lower-container-left-index {
   display: flex;
 }
 .text-for-kids-container {
