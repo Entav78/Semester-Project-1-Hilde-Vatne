@@ -21,6 +21,7 @@ body {
 }
 
 main {
+  padding-top: 17em;
   flex-grow: 1;
 }
 

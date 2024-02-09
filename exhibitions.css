@@ -1,1 +1,29 @@
-  
+.h1-exhibitions {
+  text-align: center;
+}
+.aeronautics,
+.nigth-museum-img,
+.energetica-img,
+.cosmology-img,
+.biology-img,
+.robotics-img,
+.ecology-img {
+  border-radius: 50%;
+  height: 20em;
+  width: 20em;
+}
+
+.evolution-img {
+  border-radius: 10%;
+  width: 100%;
+}
+
+.special-events-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.aeronautic-events-container {
+  display: flex;
+  flex-direction: row;
+}
