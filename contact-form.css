@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   text-decoration: none;
-  /*color: white;*/
+  color: white;
 }
 
 body {
@@ -36,7 +36,7 @@ form .half {
   justify-content: space-between;
 }
 
-form .half .item { 
+form .half .item { /* something off*/
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
@@ -99,7 +99,18 @@ form .action input[type="submit"] {
   color: black;
 }
 
-form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover {
+form .icons a {
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 600;
+  width: 38px;
+  margin-right: 10px;
+}
+
+/* remove icons*/
+form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover {
   background: rgba(255, 255, 255, 0.075);
 }
 
