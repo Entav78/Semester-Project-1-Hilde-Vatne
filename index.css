@@ -1,25 +1,40 @@
 .container1 {
   display: flex;
-  background-image: url(Images/billetto-editorial-334686.jpg);
-  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(60, 66, 89);
+  background-image: url(Images/DALL-E-main-img.webp);
+  background-blend-mode: multiply;
   background-position: center;
-  padding-left: 5%;
+  background-size: cover;
+  padding-left: 20%;
+  padding-right: 20%;
+  min-height: 50vh;
 }
 
-p1 {
-  font-size: larger;
-  font-weight: 600;
+p {
+  font-size: 2vh;
+  font-weight: 400;
 }
 
 .text-section1 {
+  color: white;
   display: flex;
   flex-direction: column;
+ 
+}
+
+.navigation-button-section1-index {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5%;
 }
 
 
 .navigate-to-exhibition-button {
     display: inline-block;
-    background-color: rgb(11, 16, 34); 
+    background-color: rgb(65, 78, 37); 
     color: white; 
     padding: 15px 25px; 
     text-align: center;
@@ -30,11 +45,11 @@ p1 {
     border-radius: 10px;
     transition: background-color 0.3s;
 }
+
 .navigation-buttons-container2-index {
     display: inline-block;
     box-sizing: border-box;
-    background-color: rgb(11, 16, 34); 
-    color: white; 
+    background-color: rgb(65, 78, 37); 
     padding: 10px 15px; 
     text-align: center;
     text-decoration: none;
@@ -45,11 +60,20 @@ p1 {
     transition: background-color 0.3s;
 }
 
- .container2 {
+.navigate-to-exhibition-button a,
+.navigation-buttons-container2-index a {
+    color: white; 
+    text-decoration: none;
+}
+
+ .container3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-items: center;
+  border: 3px solid;
+ border-color: rgb(65, 78, 37);
+ margin: 2%;
   
 }
 
@@ -63,36 +87,65 @@ p1 {
 }
 
 .exhibitions-container-index {
-  background-image: url(Images/andrew-ruiz-348421.jpg);
+  background-image: url(Images/resized-img/andrew-ruiz-348421.jpg);
  
 }
 
 .opening-hours-container-index {
-  background-image: url(Images/Natural-history-museum-2.jpg);
-  
+  background-image: url(Images/resized-img/opening-hours2.jpg);
+
 }
 
 .contribute-container-index {
  background-image: url(Images/people-219985_1280.jpg);
 }
 
-.container3 img{
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.container2 img {
+ display: flex;
  border-radius: 50%;
  width: 12em;
  height: 12em;
-  object-fit: cover;
-  margin: 2em;
+ object-fit: cover;
+ margin: 5%;
+ border: 3px solid;
+ border-color: rgb(65, 78, 37);
+}
+
+
+
+.container2-right-index,
+.container2-left-index {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
-.lower-container-right-index,
-.lower-container-left-index {
-  display: flex;
+
+
+@media screen and (max-width: 700px) {
+  .container2-left-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .container2-right-index {
+    flex-direction: column-reverse;
+  }
+
+  .container3 {
+    flex-direction: column;
+  }
 }
-.text-for-kids-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
 
