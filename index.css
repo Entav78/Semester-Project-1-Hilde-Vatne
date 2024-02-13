@@ -31,64 +31,49 @@ p {
   margin-top: 5%;
 }
 
-
+.navigation-buttons-container2-index,
 .navigate-to-exhibition-button {
     display: inline-block;
     background-color: rgb(65, 78, 37); 
     color: white; 
-    padding: 15px 25px; 
+    padding: 15px 40px; 
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
-    transition: background-color 0.3s;
-}
 
-.navigation-buttons-container2-index {
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: rgb(65, 78, 37); 
-    padding: 10px 15px; 
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
     transition: background-color 0.3s;
 }
 
 .navigate-to-exhibition-button a,
 .navigation-buttons-container2-index a {
-    color: white; 
-    text-decoration: none;
+  
+  color: white; 
+  text-decoration: none;
 }
 
- .container3 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-items: center;
-  border: 3px solid;
- border-color: rgb(65, 78, 37);
- margin: 2%;
-  
-}
+ 
 
 .exhibitions-container-index,
 .opening-hours-container-index,
 .contribute-container-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
   background-size: cover;
   background-position: center;
   height: 20em;
+  border: 3px solid;
+  border-color: rgb(65, 78, 37);
+  
 }
 
 .exhibitions-container-index {
   background-image: url(Images/resized-img/andrew-ruiz-348421.jpg);
- 
+  
 }
 
 .opening-hours-container-index {
@@ -127,6 +112,16 @@ p {
   margin-left: 6%;
   margin-right: 6%;
 }
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  margin: 2%;
+  
+}
+
 
 
 

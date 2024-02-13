@@ -154,7 +154,7 @@ nav a:hover {
   padding-right: 5%;
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5vh;
   
 
 }
@@ -237,5 +237,21 @@ nav a:hover {
   nav a:hover::before {
     transform: scale(1, 1);
   }
+}
+
+@media screen and (max-width: 450px) {
+.footer {
+  flex-direction: row;
+}
+
+.linkedin-icon,
+.instagram-icon,
+.facebook-icon {
+  width: 90%;
+}
+
+.ksm-logo-footer {
+  display: none;
+}
 }
 
