@@ -89,8 +89,7 @@ h1 {
   height: 2vh;
 }
 
-.kids-clubs,
-.div-info {
+.kids-clubs {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
@@ -101,7 +100,7 @@ h1 {
 .admission-img,
 .accessibility-img,
 .food-img,
-.gift-shop-img {
+.shop-img {
   width: 20vw;
   height: 20vw;
   border-radius: 50%;
@@ -115,7 +114,7 @@ h1 {
 
 .holday-club-logo,
 .accessibility-img
-.gift-shop-img {
+.shop-img {
   margin-left: 5%;
 }
 
@@ -124,28 +123,28 @@ h1 {
 .admission-text,
 .accessibility-text,
 .food-text,
-.gift-shop-text {
+.shop-text {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-left: 5%;
   margin-right: 5%;
 }
-.gift-shop,
+
 .accessibility,
 .holiday-club,
 .young-stars-club,
 .admission,
-.food {
+.food,
+.shop {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  
   justify-content: center;
   align-items: center;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
-  
 }
+
 
 
 form {
@@ -260,15 +259,23 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 }
 
 @media screen and (max-width: 530px) {
-  .top-section,
-  .kids-clubs,
-  .div-info {
+  .top-section {
     flex-direction: column;
     align-content: center;
     align-items: center;
     margin-bottom: 2%;
   }
 
+  /*.young-stars-club-logo {
+    display: none;
+  }
+  .young-stars-club-logo-small {
+    display: flex;
+    margin: 0;
+    margin-top: 5%;
+    
+    
+  }*/
   .opening-hours-container {
     margin-top: -10%;
     margin-bottom: 2%;
@@ -281,8 +288,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
   }
 
   .accessibility,
-  .holiday-club,
-  .gift-shop {
+  .holiday-club {
     flex-direction: column-reverse;
   }
 
@@ -290,8 +296,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
   .young-stars-club-logo,
   .holday-club-logo,
   .admission-img,
-  .food-img,
-  .gift-shop-img {
+  .food-img {
     width: 15vh;
     height: 15vh;
   }
