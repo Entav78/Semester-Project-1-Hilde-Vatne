@@ -89,12 +89,12 @@ h1 {
   height: 2vh;
 }
 
-.kids-clubs,
+/*.kids-clubs,
 .div-info {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
-}
+}*/
 
 .young-stars-club-logo,
 .holday-club-logo,
@@ -260,6 +260,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 }
 
 @media screen and (max-width: 530px) {
+
   .top-section,
   .kids-clubs,
   .div-info {
@@ -283,6 +284,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
   .accessibility,
   .holiday-club,
   .gift-shop {
+    
     flex-direction: column-reverse;
   }
 
