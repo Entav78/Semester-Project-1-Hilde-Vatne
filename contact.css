@@ -10,8 +10,7 @@
   background-color: rgba(60, 66, 89);
   background-blend-mode: multiply;
   background-size: cover;
-
- }
+}
 
 main {
   margin-left: 5%;
@@ -23,8 +22,8 @@ main {
   align-items: flex-start;
   justify-content: space-between;
   margin-top: -5%;
-  
 }
+
 .day,
 .time,
 .contact-info {
@@ -103,10 +102,6 @@ h1 {
   margin-left: 5%;
 }
 .info-text {
-/*.admission-text,
-.accessibility-text,
-.food-text,
-.gift-shop-text {*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
