@@ -84,6 +84,7 @@ form .action input {
   background: transparent;
   border-radius: 4px;
   border: 1px solid white;
+  color: white;
   cursor: pointer;
   font-size: 13px;
   font-weight: 600;
