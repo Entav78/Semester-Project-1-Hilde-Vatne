@@ -99,6 +99,10 @@ form .action input[type="submit"] {
   color: black;
 }
 
+form .action input[type="reset"] {
+  color: white;
+}
+
 form .icons a {
   border: 1px solid white;
   border-radius: 50%;

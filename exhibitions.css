@@ -77,4 +77,9 @@ main img {
 .left-side-image-container {
   flex-direction: column-reverse;
 }
+
+.main img {
+  width: 20vh;
+  height: 20vh;
+}
 }

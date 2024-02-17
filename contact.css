@@ -21,7 +21,7 @@ main {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: -5%;
+  margin-top: 5%;
 }
 
 .day,
@@ -208,6 +208,10 @@ form .action input {
 form .action input[type="submit"] {
   background: white;
   color: black;
+}
+
+form .action input[type="reset"] {
+  color: white;
 }
 
 
