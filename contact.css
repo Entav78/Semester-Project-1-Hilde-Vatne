@@ -13,14 +13,6 @@
 
  }
 
-
-
-/*body {
-  background: url(roberto-nickson-396152.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}*/
 main {
   margin-left: 5%;
   margin-right: 5%;
@@ -89,62 +81,48 @@ h1 {
   height: 2vh;
 }
 
-/*.kids-clubs,
 .div-info {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
-}*/
+}
 
-.young-stars-club-logo,
-.holday-club-logo,
-.admission-img,
-.accessibility-img,
-.food-img,
-.gift-shop-img {
-  width: 20vw;
-  height: 20vw;
+.div-info img {
+  width: 25vw;
+  height: 25vw;
   border-radius: 50%;
 }
 
 .admission-img,
-.young-stars-club-logo,
 .food-img {
   margin-right: 5%;
 }
 
-.holday-club-logo,
 .accessibility-img
 .gift-shop-img {
   margin-left: 5%;
 }
-
-.holiday-club-text,
-.young-stars-club-text,
-.admission-text,
+.info-text {
+/*.admission-text,
 .accessibility-text,
 .food-text,
-.gift-shop-text {
+.gift-shop-text {*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-left: 5%;
   margin-right: 5%;
 }
-.gift-shop,
-.accessibility,
-.holiday-club,
-.young-stars-club,
-.admission,
-.food {
+
+.right-side-image-container,
+.left-side-image-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
-  
 }
 
 
@@ -262,7 +240,6 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 @media screen and (max-width: 530px) {
 
   .top-section,
-  .kids-clubs,
   .div-info {
     flex-direction: column;
     align-content: center;
@@ -275,26 +252,17 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
     margin-bottom: 2%;
   }
 
-  .admission,
-  .young-stars-club,
-  .food {
+  .right-side-image-container {
     flex-direction: column;
   }
 
-  .accessibility,
-  .holiday-club,
-  .gift-shop {
-    
+  .left-side-image-container {
     flex-direction: column-reverse;
   }
 
-  .accessibility-img,
-  .young-stars-club-logo,
-  .holday-club-logo,
-  .admission-img,
-  .food-img,
-  .gift-shop-img {
-    width: 15vh;
-    height: 15vh;
+  .div-info img {
+    width: 20vh;
+    height: 20vh;
   }
+
 }

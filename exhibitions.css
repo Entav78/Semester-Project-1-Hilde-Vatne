@@ -1,29 +1,38 @@
-.h1-exhibitions {
+
+h1 {
   text-align: center;
 }
-.aeronautics,
-.nigth-museum-img,
-.energetica-img,
-.cosmology-img,
-.biology-img,
-.robotics-img,
-.ecology-img {
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main img {
   border-radius: 50%;
   height: 20em;
   width: 20em;
 }
-
 .evolution-img {
-  border-radius: 10%;
+  border-radius: 5%;
   width: 100%;
 }
 
-.special-events-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.aeronautic-events-container {
+.right-side-image-container,
+.left-side-image-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
+
+.right-side-image-text,
+.left-side-image-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
