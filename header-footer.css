@@ -25,17 +25,6 @@ main {
   flex-grow: 1;
 }
 
-/*main {
-  height: 200vh;
-  
-  background-color: #333;
-  background-blend-mode: multiply;
-  background-size: cover;
-  display: grid;
-  place-items: center;
-}
-
-/* navigation styles start here*/
 
 header {
   background: var(--background);
@@ -46,8 +35,7 @@ header {
 }
 
 .ksm-logo {
-  height: 13rem;
-
+  height: 15vh;
 }
 
 .nav-toggle {
@@ -252,6 +240,10 @@ nav a:hover {
 
 .ksm-logo-footer {
   display: none;
+}
+
+.ksm-logo {
+
 }
 }
 

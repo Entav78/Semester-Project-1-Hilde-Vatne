@@ -1,23 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+ 
 body {
   margin: 0;
   padding: 0;
   font-family: robotica;
   font-size: 2vh;
-  color: white;
-  background-image: url(Images/resized-img/DALL·E-terms1.webp);
-  background-color: rgba(60, 66, 89);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-position: center;
 }
 
-main {
+.main-section {
   margin: 0;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  }
 
 h1 {
   margin: 0;
-  margin-top: 5%;
   margin-bottom: 2%;
   text-align: center;
   background-image: url(Images/DALL-E-contact.webp);
@@ -30,17 +30,37 @@ h1 {
   color: white;
 }
 
-.heading-paragraph p {
-  text-align: center;
+main img {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
 }
 
-.paragraph {
-  margin-top: 5%;
+.internships-img,
+.support-img {
+  margin-right: 5%;
 }
 
-.text-container-terms {
+.volunteer-img {
+  margin-left: 5%;
+}
+.info-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.right-side-image-container,
+.left-side-image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 form {
@@ -50,6 +70,10 @@ form {
   max-width: 97%;
   border-radius: 4px;
   padding: 55px 30px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
 }
 
 form .title h2 {
@@ -65,7 +89,7 @@ form .half {
   justify-content: space-between;
 }
 
-form .half .item {
+form .half .item { 
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
@@ -138,7 +162,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
   background: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width:480px) {
+@media (min-width:200px) and (max-width:480px) {
   form .half {
     flex-direction: column;
   }
@@ -154,3 +178,32 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
     width: 100%;
   }
 }
+
+/*@media screen and (max-width: 530px) {
+
+  .main-section {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    /*width: 20vh;
+    height: 20vh;
+  }
+
+  .right-side-image-container {
+    flex-direction: column;
+  }
+
+  .left-side-image-container {
+    flex-direction: column-reverse;
+  }*/
+
+  /*.main-section img {
+    width: 20vh;
+    height: 20vh;
+  }
+}
+
+/*@media screen and (max-width: 530px) {
+
+}*/

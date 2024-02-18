@@ -18,7 +18,6 @@ h1 {
   padding-top: 5%;
   padding-bottom: 10%;
   color: white;
-  
 }
 
 .left-side-image-container,
@@ -46,6 +45,7 @@ main img {
   margin-top: 2.5%;
   margin-bottom: 2.5%;
 }
+
 .evolution-text,
 .right-side-image-text,
 .left-side-image-text {
@@ -62,15 +62,6 @@ main img {
 }
 
 @media screen and (max-width: 530px) {
- /*
-  .special-events-container,
- .exhibitions-container {
-  flex-direction: column;
-    align-content: center;
-    align-items: center;
-    margin-bottom: 2%;
- } */
-
  .right-side-image-container {
   flex-direction: column;
 }

@@ -76,7 +76,6 @@ h1 {
 .location-icon,
 .mobile-icon,
 .mail-icon {
-  width: 1,5vh;
   height: 2vh;
 }
 
@@ -170,6 +169,7 @@ form .half .item input {
   height: 44px;
   background: transparent;
   font-size: 17px;
+  color: white;
 }
 
 form .full {
@@ -185,6 +185,7 @@ form .full textarea {
   width: 100%;
   height: 200px;
   font-size: 17px;
+  color: white;
 }
 
 form .action {
@@ -214,7 +215,6 @@ form .action input[type="submit"] {
 form .action input[type="reset"] {
   color: white;
 }
-
 
 form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover {
   background: rgba(255, 255, 255, 0.075);
