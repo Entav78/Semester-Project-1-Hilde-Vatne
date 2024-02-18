@@ -4,16 +4,15 @@ body {
   font-family: robotica;
   font-size: 2vh;
   color: white;
- /* background-image: url(Images/resized-img/DALL·E-terms1.webp);
+ background-image: url(Images/resized-img/DALL·E-terms1.webp);
   background-color: rgba(60, 66, 89);
   background-blend-mode: multiply;
   background-size: cover;
-  background-position: center;*/
+  background-position: center;
 }
 
 main {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0;
 }
 
 h1 {
@@ -22,17 +21,26 @@ h1 {
   margin-bottom: 2%;
   text-align: center;
   background-image: url(Images/DALL-E-contact.webp);
-  background-color: rgba(60, 66, 89, o.5);
+  background-color: rgba(60, 66, 89);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   padding-top: 5%;
   padding-bottom: 10%;
   color: white;
-  
 }
+
+.heading-paragraph p {
+  text-align: center;
+}
+
 .paragraph {
   margin-top: 5%;
+}
+
+.text-container-terms {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 form {
   background: rgba(27, 31, 34, 0.80);
