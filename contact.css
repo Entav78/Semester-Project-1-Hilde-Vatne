@@ -6,7 +6,7 @@
   font-family: robotica;
   font-size: 2vh;
   color: white;
-  background-image: url(Images/DALL-E-contact.webp);
+  background-image: url(Images/resized-img/DALL-E-resized-contact.webp);
   background-color: rgba(60, 66, 89);
   background-blend-mode: multiply;
   background-size: cover;
@@ -22,6 +22,7 @@ main {
   align-items: flex-start;
   justify-content: space-between;
   margin-top: 5%;
+  display: hidden;
 }
 
 .day,
@@ -59,7 +60,9 @@ main {
   list-style-type: none;
   padding: 0;
 }
-
+.time {
+  padding-left: 2%;
+}
 .day li,
 .time li {
   padding: 5px 0;

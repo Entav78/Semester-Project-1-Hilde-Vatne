@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: robotica;
+  font-family: roboto;
   font-size: 2vh;
 }
 
@@ -19,6 +19,7 @@ h1 {
   padding-bottom: 10%;
   color: white;
 }
+
 
 .left-side-image-container,
 .right-side-image-container {
@@ -54,6 +55,7 @@ main img {
   flex-wrap: wrap;
   margin-left: 5%;
   margin-right: 5%;
+  
 }
 
 .evolution-text {

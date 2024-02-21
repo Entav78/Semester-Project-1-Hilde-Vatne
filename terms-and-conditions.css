@@ -43,6 +43,10 @@ h1 {
   margin-right: 5%;
 }
 
+.bold-text {
+  text-decoration: underline;
+}
+
 form {
   background: rgba(27, 31, 34, 0.80);
   width: 640px;
