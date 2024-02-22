@@ -5,7 +5,7 @@ body {
   font-size: 2vh;
   font-weight: 400;
   color: white;
-  background-image: url(Images/resized-img/DALL-E-privacy-policy.webp);
+  background-image: url(Images/resized-img/DALL·E-terms1.webp);
   background-color: rgba(60, 66, 89);
   background-blend-mode: multiply;
   background-size: cover;
@@ -69,7 +69,7 @@ form .half {
   justify-content: space-between;
 }
 
-form .half .item { /* something off*/
+form .half .item {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
