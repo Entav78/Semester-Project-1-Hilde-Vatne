@@ -1,8 +1,11 @@
+@import url(/test/neon-button.css);
+@import url(/header-footer.css);
+
 .container1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-color: rgba(60, 66, 89);
   background-image: url(Images/DALL-E-main-img.webp);
   background-blend-mode: multiply;
@@ -30,8 +33,10 @@ p {
   margin-top: 5%;
 }
 
-.navigation-buttons-container2-index,
 .navigate-to-exhibition-button {
+  display: none;
+}
+/*.navigation-buttons-container2-index {
     display: inline-block;
     background-color: rgb(65, 78, 37); 
     color: white; 
@@ -44,14 +49,14 @@ p {
     border-radius: 10px;
 
     transition: background-color 0.3s;
-}
+}*/
 
-.navigate-to-exhibition-button a,
+/*.navigate-to-exhibition-button a,
 .navigation-buttons-container2-index a {
   
   color: white; 
   text-decoration: none;
-}
+}*/
 
 .exhibitions-container-index,
 .opening-hours-container-index,
@@ -63,8 +68,8 @@ p {
   background-size: cover;
   background-position: center;
   height: 20em;
-  border: 3px solid;
-  border-color: rgb(65, 78, 37);
+  border: 2px solid;
+  border-color: rgb(255, 20, 189);
 }
 
 .exhibitions-container-index {
@@ -93,7 +98,8 @@ p {
  object-fit: cover;
  margin: 5%;
  border: 3px solid;
- border-color: rgb(65, 78, 37);
+ border-color: rgb(255, 20, 189);
+ box-shadow: inset 0 0 0.5em 0 rgb(255, 20, 189), 0 0 0.5em 0 rgb(255, 20, 189);
 }
 
 .container2-right-index,
