@@ -1,5 +1,5 @@
-@import url(/test/neon-button.css);
-@import url(/header-footer.css);
+@import url(./test/neon-button.css);
+@import url(./header-footer.css);
 
 .container1 {
   display: flex;
