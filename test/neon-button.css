@@ -8,7 +8,7 @@
 .neon-button-container {
   display: flex;
   place-items: center;
-  font-family: "Balsamiq Sans", cursive;
+  font-family: "Balsamiq Sans", "Roboto" cursive;
   color: rgb(255, 20, 189);
   /*padding-right: 10rem;*/
 }
