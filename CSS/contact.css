@@ -1,63 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
- 
- body {
-  margin: 0;
-  padding: 0;
-  font-family: robotica;
-  font-size: 2vh;
-  color: black;
-  
-}
+@import url(/CSS/global.css);
 
-.container-contribution-page {
-  margin-left: 8%;
-  margin-right: 8%;
-}
-h1 {
-  background-image: url(Images/DALL-E-contact.webp);
+
+
+ body {
+  color: white;
+  background-image: url(/Images/resized-img/DALL-E-resized-contact.webp);
   background-color: rgba(60, 66, 89);
   background-blend-mode: multiply;
   background-size: cover;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  text-align: center;
-  color: white;
 }
 
-.right-side-image-container,
-.left-side-image-container {
-  display: flex;
-  align-items: center;
-}
-
-.left-side-image-text {
+main {
   margin-left: 5%;
-}
-
-.right-side-image-text {
   margin-right: 5%;
 }
-/*
+
 .top-section {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   margin-top: 5%;
+  display: hidden;
 }
 
+.day,
+.time,
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.container-location {
+  background-color: rgba(60, 66, 89, 0.80);
+  padding-left: 2%;
+  padding-right: 2%; 
+}
+
+.opening-hours-container {
+  background-color: rgba(60, 66, 89, 0.80);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 2%;
+  padding-right: 2%; 
+}
+
+.opening-hours {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 10em;
+ background-color: rgba(255, 255, 255, 0.075);
+}
+
+.day,
+.time {
+  list-style-type: none;
+  padding: 0;
+}
+.time {
+  padding-left: 2%;
+}
+.day li,
+.time li {
+  padding: 5px 0;
+}
+
+h1 {
+  grid-column: 1 / -1;
+}
+
+.p li {
+  font-weight: bolder;
+}
+
+.location-icon,
+.mobile-icon,
+.mail-icon {
+  height: 2vh;
+}
 
 .div-info {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
-}*/
+}
 
-main img {
+.div-info img {
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
 }
-/*
+
 .admission-img,
 .food-img {
   margin-right: 5%;
@@ -86,7 +122,7 @@ main img {
   margin-bottom: 2.5%;
 }
 
-*/
+
 form {
   background: rgba(27, 31, 34, 0.80);
   width: 640px;
@@ -206,6 +242,19 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 
 @media screen and (max-width: 530px) {
 
+  .top-section,
+  .div-info {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+  }
+
+  .opening-hours-container {
+    margin-top: -10%;
+    margin-bottom: 2%;
+  }
+
   .right-side-image-container {
     flex-direction: column;
   }
@@ -214,7 +263,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
     flex-direction: column-reverse;
   }
 
-  .container-contribution-page img {
+  .div-info img {
     width: 20vh;
     height: 20vh;
   }
