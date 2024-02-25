@@ -16,6 +16,10 @@
   padding-right: 20%;
   min-height: 50vh;
 }
+h1,
+h2 {
+  text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.3), 0 0 0.45em currentColor;
+  }
 
 p {
   font-size: 2vh;
