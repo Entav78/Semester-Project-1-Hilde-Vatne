@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(60, 66, 89);
-  background-image: url(/Images/DALL-E-main-img.webp);
+  background-image: url(./Images/DALL-E-main-img.webp);
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
@@ -53,15 +53,15 @@ p {
 }
 
 .exhibitions-container-index {
-  background-image: url(/Images/resized-img/andrew-ruiz-348421.jpg);
+  background-image: url(./Images/resized-img/andrew-ruiz-348421.jpg);
 }
 
 .opening-hours-container-index {
-  background-image: url(/Images/resized-img/opening-hours-index.jpg);
+  background-image: url(./Images/resized-img/opening-hours-index.jpg);
 }
 
 .contribute-container-index {
- background-image: url(/Images/people-219985_1280.jpg);
+ background-image: url(./Images/people-219985_1280.jpg);
 }
 
 .container2 {
