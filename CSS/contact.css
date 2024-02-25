@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url(/CSS/global.css);
+@import url(./CSS/global.css);
 @import url(./header-footer.css);
 
 
 
  body {
   color: white;
-  background-image: url(/Images/resized-img/DALL-E-resized-contact.webp);
+  background-image: url(../Images/resized-img/DALL-E-resized-contact.webp);
   background-color: rgba(60, 66, 89);
   background-blend-mode: multiply;
   background-size: cover;
