@@ -25,9 +25,17 @@ main {
   display: hidden;
 }
 
-/*.h2 {
+h1 {
   text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.3), 0 0 0.45em currentColor;
-}*/
+  grid-column: 1 / -1;
+}
+
+h2 {
+  text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.3), 0 0 0.45em currentColor;
+}
+.p li {
+  font-weight: bolder;
+}
 
 .day,
 .time,
@@ -78,13 +86,7 @@ main {
   padding: 5px 0;
 }
 
-h1 {
-  grid-column: 1 / -1;
-}
 
-.p li {
-  font-weight: bolder;
-}
 
 .location-icon,
 .mobile-icon,

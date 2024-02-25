@@ -23,6 +23,10 @@ h1 {
   text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.2), 0 0 0.45em currentColor;
 }
 
+h2 {
+  text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.3), 0 0 0.45em currentColor;
+}
+
 .right-side-image-container,
 .left-side-image-container {
   display: flex;
