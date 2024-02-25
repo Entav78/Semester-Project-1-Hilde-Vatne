@@ -10,7 +10,7 @@
   background-color: rgba(60, 66, 89);
   background-image: url(../Images/DALL-E-main-img.webp);
   background-blend-mode: multiply;
-  background-position: center; /*url(./Images/DALL-E-main-img.webp);*/
+  background-position: center; 
   background-size: cover;
   padding-left: 20%;
   padding-right: 20%;
