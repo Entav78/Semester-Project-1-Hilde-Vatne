@@ -43,7 +43,9 @@ main img {
   border-radius: 50%;
   border: 2px solid;
   border-color: rgb(255, 20, 189);
+  box-shadow: inset 0 0 0.5em 0 rgb(255, 20, 189), 0 0 0.5em 0 rgb(255, 20, 189);
 }
+
 
 form {
   background: rgba(27, 31, 34, 0.80);

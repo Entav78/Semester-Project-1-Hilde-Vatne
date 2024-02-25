@@ -25,9 +25,9 @@ main {
   display: hidden;
 }
 
-.h2 {
+/*.h2 {
   text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.3), 0 0 0.45em currentColor;
-}
+}*/
 
 .day,
 .time,
