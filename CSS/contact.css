@@ -32,6 +32,11 @@ main {
   flex-direction: column;
   padding-left: 2%;
   padding-right: 2%;
+  
+}
+
+.day {
+  justify-content: space-evenly;
 }
 
 .container-location {
