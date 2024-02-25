@@ -12,6 +12,9 @@
 }
 
 h1 {
+  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 2%;
   background-image: url(../Images/DALL-E-contact.webp);
   background-color: rgba(60, 66, 89, 0.9);
   background-blend-mode: multiply;
