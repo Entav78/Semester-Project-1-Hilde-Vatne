@@ -23,7 +23,7 @@ h1 {
 h2 {
   text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.3), 0 0 0.45em currentColor;
 }
-
+.young-stars-club-text,
 .left-side-image-container,
 .right-side-image-container {
   margin-left: 5%;
@@ -40,7 +40,7 @@ main img {
   border-radius: 5%;
   width: 100%;
 }
-.young-stars-club-text,
+
 .right-side-image-container,
 .left-side-image-container {
   display: flex;
