@@ -12,7 +12,7 @@
 }
 
 h1 {
-  background-image: url(/Images/DALL-E-contact.webp);
+  background-image: url(../Images/DALL-E-contact.webp);
   background-color: rgba(60, 66, 89);
   background-blend-mode: multiply;
   background-size: cover;
@@ -41,6 +41,8 @@ main img {
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(255, 20, 189);
 }
 
 form {

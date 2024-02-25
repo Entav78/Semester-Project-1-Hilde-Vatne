@@ -19,7 +19,10 @@ h1 {
   color: rgb(255, 20, 189);
   text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.3), 0 0 0.45em currentColor;
 }
-
+/*tests*/
+h2 {
+  text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.3), 0 0 0.45em currentColor;
+}
 
 .left-side-image-container,
 .right-side-image-container {
