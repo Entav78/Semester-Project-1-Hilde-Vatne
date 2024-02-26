@@ -57,7 +57,7 @@ h2 {
   padding-right: 2%; 
 }
 
-.opening-hours-container {
+/*.opening-hours-container {
   background-color: rgba(60, 66, 89, 0.80);
   display: flex;
   flex-direction: column;
@@ -84,9 +84,29 @@ h2 {
 .day li,
 .time li {
   padding: 5px 0;
+}*/
+
+.opening-hours-container {
+  background-color: rgba(60, 66, 89, 0.80);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 230px;
+  max-width: 450px;
+  padding-bottom: 2%;
 }
 
-
+.opening-hours {
+  margin: 0;
+  background-color: rgba(60, 66, 89, 0.80);
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2%;
+  list-style: none;
+  min-width: 230px;
+  
+}
 
 .location-icon,
 .mobile-icon,
