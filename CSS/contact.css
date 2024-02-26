@@ -20,7 +20,7 @@ main {
 .top-section {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 5%;
   display: hidden;
 }
@@ -37,62 +37,18 @@ h2 {
   font-weight: bolder;
 }
 
-.day,
-.time,
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  padding-left: 2%;
-  padding-right: 2%;
-  
-}
-
-.day {
-  justify-content: space-evenly;
-}
-
 .container-location {
+  margin-left: 2%;
   background-color: rgba(60, 66, 89, 0.80);
   padding-left: 2%;
   padding-right: 2%; 
 }
-
-/*.opening-hours-container {
-  background-color: rgba(60, 66, 89, 0.80);
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  padding-left: 2%;
-  padding-right: 2%; 
-}
-
-.opening-hours {
-  display: flex;
-  flex-wrap: nowrap;
-  min-width: 10em;
- background-color: rgba(255, 255, 255, 0.075);
-}
-
-.day,
-.time {
-  list-style-type: none;
-  padding: 0;
-}
-.time {
-  padding-left: 2%;
-}
-.day li,
-.time li {
-  padding: 5px 0;
-}*/
 
 .opening-hours-container {
   background-color: rgba(60, 66, 89, 0.80);
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 230px;
-  max-width: 450px;
   padding-bottom: 2%;
 }
 
@@ -105,7 +61,6 @@ h2 {
   column-gap: 2%;
   list-style: none;
   min-width: 230px;
-  
 }
 
 .location-icon,
@@ -153,7 +108,6 @@ h2 {
   margin-top: 2.5%;
   margin-bottom: 2.5%;
 }
-
 
 form {
   background: rgba(27, 31, 34, 0.80);
@@ -283,8 +237,9 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
   }
 
   .opening-hours-container {
-    margin-top: -10%;
+    margin-top: -2%;
     margin-bottom: 2%;
+    margin-left: 0;
   }
 
   .right-side-image-container {
