@@ -131,7 +131,7 @@ form .action input {
   margin-right: 10px;
 }
 
-form .action input[type="submit"] {
+form .action input[type="button"] {
   background: white;
   color: black;
 }
