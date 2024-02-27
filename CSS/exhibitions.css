@@ -19,7 +19,7 @@ h1 {
   color: rgb(255, 20, 189);
   text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.2), 0 0 0.45em currentColor;
 }
-/*tests*/
+
 h2 {
   text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.3), 0 0 0.45em currentColor;
 }
@@ -30,8 +30,8 @@ h2 {
   margin-right: 5%;
 }
 main img {
-  width: 25vw;
-  height: 25vw;
+  width: 25vh;
+  height: 25vh;
   border-radius: 50%;
   border-color: rgb(255, 20, 189);
   box-shadow: inset 0 0 0.5em 0 rgb(255, 20, 189), 0 0 0.5em 0 rgb(255, 20, 189);
@@ -80,5 +80,6 @@ main img {
 .main img {
   width: 20vh;
   height: 20vh;
+
 }
 }
