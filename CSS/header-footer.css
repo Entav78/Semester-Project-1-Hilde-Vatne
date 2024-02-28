@@ -110,6 +110,10 @@ nav a {
   transition: opacity 150ms ease-in-out;
 }
 
+.hidden {
+  font-size: 1.2rem;
+}
+
 nav a:hover {
   color: rgb(255, 20, 189);
   
