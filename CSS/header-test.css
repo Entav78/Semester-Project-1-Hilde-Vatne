@@ -101,6 +101,7 @@ margin-bottom: 1em;
 margin-left: 1em;
 }
 
+
 nav a {
   color: white;
   text-decoration: none;
@@ -207,6 +208,7 @@ nav a:hover {
   nav li {
     margin-left: 3em;
     margin-bottom: 0;
+    
   }
   
   nav a {
@@ -247,4 +249,3 @@ nav a:hover {
   display: none;
 }
 }
-
