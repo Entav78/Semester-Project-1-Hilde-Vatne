@@ -8,7 +8,7 @@ body {
   background-color: rgba(60, 66, 89);
   background-blend-mode: multiply;
   background-size: cover;
-  background-position: center;
+  background-position: start;
 }
 
 h1 {
